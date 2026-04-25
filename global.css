@@ -167,11 +167,15 @@
   }
 
   .sub-title {
-    @apply mb-1 ml-4 text-base font-sans-bold text-primary;
+    @apply mb-1 ml-4 text-lg font-sans-bold text-primary;
   }
 
   .sub-meta {
     @apply text-sm font-sans-semibold text-muted-foreground ml-4;
+  }
+
+  .sub-price-box {
+    @apply ml-3 shrink-0 items-end;
   }
 
   .sub-price {
